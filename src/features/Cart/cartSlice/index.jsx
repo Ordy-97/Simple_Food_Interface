@@ -6,7 +6,7 @@ export const resetOrderThunk = createAsyncThunk( 'cart/resetOrderTunk', async() 
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             reject()
-        }, 5000)
+        }, 120000)
     }) 
 })
 
@@ -28,7 +28,7 @@ export const addProductThunk = createAsyncThunk( 'cart/addProductThunk' , async 
                 } else {
                     reject();
                 }
-        }, 150000)
+        }, 5000)
       });
 })
 
