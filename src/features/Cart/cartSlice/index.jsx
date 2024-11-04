@@ -28,7 +28,7 @@ export const addProductThunk = createAsyncThunk( 'cart/addProductThunk' , async 
                 } else {
                     reject();
                 }
-        }, 50000)
+        }, 150000)
       });
 })
 
